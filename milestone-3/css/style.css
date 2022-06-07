@@ -3,3 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #083b4c;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.number-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.number-box{
+    height: 100px;
+    width: 100px;
+    background-color: #1389b2;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+/* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.fizz{
+    background-color: #0bd6a1;
+}
+.buzz{
+    background-color: #ffd166;
+}
+.fizzbuzz{
+    background-color: #f0466f;
+}
