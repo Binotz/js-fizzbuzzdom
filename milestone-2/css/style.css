@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+ul{
+    padding: 1rem;
+    list-style-type: none;
+}
+li{
+    padding: .2rem;
+    text-align: center;
+}
